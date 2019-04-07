@@ -1,0 +1,14 @@
+{
+"EnclosureFanOn":false,
+"MotorA":100,
+"MotorB":20,
+"MotorX":100,
+"MotorY":100,
+"MotorZ":40,
+"PlayRemovalLength":0.5,
+"OffsetZ":-0.02,
+"BrimSpeedTypeValue":1,
+"BrimSpeed":600,
+"BrimSpeedRatio":100,
+"BrimExtrudeRatio":150
+}
