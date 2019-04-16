@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>59c26c37-c49c-4b48-a107-891ddf34a902</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TestSupport</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)PropertyChangeTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestControler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestRegion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestShellCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestSupport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestValidCheck.cs" />
+  </ItemGroup>
+</Project>

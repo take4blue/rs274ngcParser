@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rs274ngcparser", "Rs274ngcParser\rs274ngcparser.csproj", "{C68BCEFB-B0E7-4065-9CD7-38B585FFBF00}"
 EndProject
@@ -15,7 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranlatorToAdventurer3", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcGcode", "CalcGcode\CalcGcode.csproj", "{BAAA11CF-7F5C-4503-A5B3-BB305B214C72}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestSupport", "TestSupport\TestSupport.shproj", "{59C26C37-C49C-4B48-A107-891DDF34A902}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TestSupport\TestSupport.projitems*{59c26c37-c49c-4b48-a107-891ddf34a902}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
