@@ -17,6 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcGcode", "CalcGcode\Calc
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestSupport", "TestSupport\TestSupport.shproj", "{59C26C37-C49C-4B48-A107-891DDF34A902}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62618185-5184-42DA-A107-EA999511F56B}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+		ParameterText.runsettings = ParameterText.runsettings
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TestSupport\TestSupport.projitems*{59c26c37-c49c-4b48-a107-891ddf34a902}*SharedItemsImports = 13
