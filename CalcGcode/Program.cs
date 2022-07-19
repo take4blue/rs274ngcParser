@@ -82,9 +82,7 @@ namespace CalcGcode {
 
 		public void PostAction() {
 			current_.PostAction();
-			if (totalE_ == 0.0) {
-				totalE_ = current_.E;
-			}
+			totalE_ += current_.E;
 			Console.Write(string.Format("Total Length {0}\nTotal Time {1}\nFillament {2}\n", totalLength_, totalTime_, totalE_));
 		}
 
